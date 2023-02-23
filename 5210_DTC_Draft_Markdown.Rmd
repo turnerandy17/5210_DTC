@@ -33,7 +33,6 @@ library(zoo)
 ddi2 <- read_ipums_ddi("Rawdata/cps_00002.xml")
 init_data <- read_ipums_micro(ddi2) 
 
-###test push
 ```
 
 
