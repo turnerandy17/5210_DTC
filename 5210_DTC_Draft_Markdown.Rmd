@@ -18,20 +18,20 @@ library(Ecdat)
 library(ggstance)
 library(multcomp)
 library(NHANES)
+library(purrr)
+library(lubridate)
 library(corrplot)
-library(patchwork)
+library(dplyr)
 library(haven)
-library(marginaleffects)
-library(effects)
-library(DAMisc)
-library(kableExtra)
+library(ipumsr)
+library(zoo)
 ```
 
 
 ```{r}
 #Raw Data 
 ddi2 <- read_ipums_ddi("Rawdata/cps_00002.xml")
-og_df2 <- read_ipums_micro(ddi2) 
+init_data <- read_ipums_micro(ddi2) 
 ```
 
 
