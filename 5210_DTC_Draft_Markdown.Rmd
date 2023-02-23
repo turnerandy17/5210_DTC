@@ -9,3 +9,31 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r, include = FALSE}
+library(fixest)
+library(ggplot2)
+library(tidyverse)
+library(vtable)
+library(Ecdat)
+library(ggstance)
+library(multcomp)
+library(NHANES)
+library(corrplot)
+library(patchwork)
+library(haven)
+library(marginaleffects)
+library(effects)
+library(DAMisc)
+library(kableExtra)
+```
+
+
+```{r}
+#Raw Data 
+ddi2 <- read_ipums_ddi("Rawdata/cps_00002.xml")
+og_df2 <- read_ipums_micro(ddi2) 
+```
+
+
+
+
