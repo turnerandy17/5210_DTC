@@ -30,3 +30,4 @@ suicide_gdp <- suicide_data %>%
   group_by(X...country, year, gdp_for_year....) %>% 
   summarize(suicide_number = sum(suicides_no))
 
+####
