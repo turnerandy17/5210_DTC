@@ -1,0 +1,62 @@
+---
+title: "DTC 5210 Project Outline"
+author: "Ian Bosco, Christian Smith, Andy Turner"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+------------------------------------------------------------------------
+
+#### Description of Data set
+This is a compiled dataset from the World Health Organization, World Bank, and United Nations members on suicide rates. It contains reported suicide numbers, Human Development Index (HDI), and the Gross Domestic (GDP) reported per country from 1985 to 2016. There are 101 countries represented in the data. The dataset also contains a field for generation (ex: Millennials, Generation X, Generation Z) which will be interesting to see how suicide rates compare for each generation.
+
+------------------------------------------------------------------------
+
+#### Story you want to get across: 
+The story we want to get across and communicate is that suicide rates vary by country, the GDPs of each country are associated with suicide rates, and suicide rates vary between each generational group and sex. We want to tell the story that certain countries/demographic groups struggle more with suicide and that by focusing on these demographic groups or countries, we can better understand how to begin addressing the issue of suicide.
+
+
+-------------------------------------------------------------------------
+
+#### Descriptions or sketches of graphs you plan to make:
+
+One of the first charts we want to make is a global heat map visual that shows the suicide rate for that country as a certain highlighted color. We'd like to incorporate filtering on this chart by calendar year in order to see how the suicide rates for that country change over time.
+
+The next chart we want to create is a tree-map visualization of suicide rates by generational group that can be filtered by year or country. For the tree-map we want to display the generational group name, the suicide rate, and choose an aesthetically pleasing color palette.
+
+The next chart we want to focus on is how suicide rates have changed over time by sex (M/F). For this chart, we'd like to include a line graph including two lines (one for M, one for F) and have filtering options to view by country or generational group.
+
+The next chart we want to include is FINISH THIS SECTION
+
+The final chart we want to include is FINISH THIS SECTION
+
+-------------------------------------------------------------------------
+
+#### Details to put into your presentation:
+
+For our presentation, we want to first focus on a brief overview of the data, where we sourced it from, and why we selected that dataset. We then want to begin with a high-level overview of the different kinds of visualizations in our dashboard. We plan to start with the global heat map, then move to the tree-map, and then we will focus on our other visualizations.
+
+Once we conclude with an overview of our visualizations, we want to discuss key insights we've found from our data and then wrap up our presentation with our final thoughts.
+
+-------------------------------------------------------------------------
+
+#### Thoughts about how those graphs will help get your story across:
+
+Our global heat map will allow users to quickly identify which countries have the highest suicide rates. By hovering over the country, one would be able to see the suicide rate broken down by demographic group. This immediately allows us to assess which countries have the highest rates.
+
+The tree-map will quickly allow users to see which demographic (generational group) has the highest suicide rates and this allows us to further dig in to which groups are more susceptible to suicide.
+
+Our line-graph of suicide rates by sex will quickly allow users to see which sex has higher rates of suicide and how those have changed over time. 
+
+The next chart we want to include is FINISH THIS SECTION
+
+The final chart we want to include is FINISH THIS SECTION
+
+
+
+
