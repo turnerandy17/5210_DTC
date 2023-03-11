@@ -34,7 +34,7 @@ This is a compiled dataset from the World Health Organization, World Bank, and U
 
 #### Story you want to get across: 
 
-Our analysis reveals that the overwhelming majority of suicides are from males. Generationally, Boomers and the Silent generation comprised the highest number of suicides in our data set. Lastly, the majority of suicides affect those in their 'middle-age', typically individuals between the ages of 35-54 years old.
+
 
 The story we want to get across and communicate is that suicide rates vary by country, the GDPs of each country are associated with suicide rates, and suicide rates vary between each generational group and sex. We want to tell the story that certain countries/demographic groups struggle more with suicide and that by focusing on these demographic groups or countries, we can better understand how to begin addressing the issue of suicide.
 
@@ -47,20 +47,35 @@ One of the first charts we want to make is a global heat map visual that shows t
 
 The next chart we want to create is a tree-map visualization of suicide rates by generational group that can be filtered by year or country. For the tree-map we want to display the generational group name, the suicide rate, and choose an aesthetically pleasing color palette.
 
-The last chart we plan to focus on is how suicide rates have changed over time by sex (M/F). For this chart, we'd like to include a line graph including two lines (one for M, one for F) and have filtering options to view by country or generational group.
+
+-------------------------------------------------------------------------
+
+#### Results and Our Story Explained:
+
+Our analysis reveals that the overwhelming majority of suicides are from males. We see in our first visual for all suicide globally between 1985-2016, nearly 5.2M males committed suicide. This is almost 4x higher than the suicide rate for females.
+
+![](../images/counts.png)
+
+
+
+
+
+
+
+Generationally, Boomers and the Silent generation comprised the highest number of suicides in our data set. 
+
+
+
+
+Lastly, the majority of suicides affect those in their 'middle-age', typically individuals between the ages of 35-54 years old.
+
 
 
 -------------------------------------------------------------------------
 
-#### Walk us through the results on your dashboard and explain how they relate to your story:
+#### Recommendations and Final Thoughts
 
-
-
-
-
--------------------------------------------------------------------------
-
-#### Give the audience a sense of what they are learning about the world, or what useful things they can do with the actionable recommendations you provide
+The issue of suicide is a sobering one. We hope to use 
 
 
 
