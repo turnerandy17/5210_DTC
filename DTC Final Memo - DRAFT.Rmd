@@ -10,9 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-# Update the link once we have final dashboard
 #### Link to Tableau Dashboard
-https://public.tableau.com/app/profile/ian.ceazar.basco/viz/shared/CN3TR8XMB
+https://public.tableau.com/app/profile/ian.ceazar.basco/viz/DataExplorationProject-Suicide/Dashboard1
 
 
 ------------------------------------------------------------------------
@@ -78,9 +77,10 @@ One of the next issues we wanted to examine was which age range is suicide most 
 Our team then turns to the issue of answering the question of which generation commits the highest number of suicides. Our treemap shows Boomers and the Silent generation comprised the highest number of suicides in our data set. We saw that individuals in the middle of their anticipated lifespan commit suicide in higher numbers than individuals in other age groups in the previous visualization, and as our data spans 1985-2016, we anticipated seeing Boomers and the Silent generation committing the most suicides as they would have been in their 'middle' ages during 1985-2016.
 ![](images/treemap.png)
 
+All of our results examined thus far have been on a global level. To examine the intricacies of suicides by country, our team created a global heat map detailing suicides by country. Our heat map clearly shows the United States, Japan, and Russia having the highest number of suicides globally. From an informational perspective, we feel this global heat map allows users to investigate country level suicides and dig further into a specific country.
+![](images/globally.png)
 
-
-Finally, we see some interesting results for the relationship between GDP and suicide.
+Lastly, we see some interesting results for the relationship between GDP and suicide. Over the period of time between 1985 and 2016, we see the number of suicides per 100K population has remained relatively constant when fitted with a line (dashed). During that same time, we see GDP has steadily increased globally which is to be expected. This is interesting and a good sign that as global GDP has increased, suicides have not increased at the same rates. We would hope that in the future, GDP and suicides develop and inverse relationship and suicides decline relative to GDP increases.
 ![](images/gdp.png)
 
 
@@ -88,7 +88,14 @@ Finally, we see some interesting results for the relationship between GDP and su
 
 #### Recommendations and Final Thoughts
 
-The issue of suicide is a sobering one. We hope to use 
+The issue of suicide is a sobering one. Our analysis has demonstrated that middle-aged males from the Boomer or Silent generation in the United States, Russia, or Japan commit the most suicides. We have found that GDP has increased which suicide rates have remained relatively constant which gives us hope that as time goes on, suicides will continue to remain constant or decline as countries develop and create more advanced economies.
 
+Although our data set is not fully representative of a lot of other information (other countries, data is only for a select number of years), we recommend the following based on our data set and analysis.
 
+* Increase resources and community programs for middle-aged individuals to expand the knowledge and conversation around suicide.
+* Encourage and develop further programs and resources for those in the Silent and Boomer generations. Use insights from those conversations and programs to help influence Gen X, Millennials, Gen Z.
+* Encourage global leaders to partner with each other to help bring suicide to the forefront of public health conversations.
+* Continue monitoring global suicide rates relative to GDP.
+
+We hope this story, dashboard, and analysis has provided a sobering and thought-provoking insight into suicides on a global level. Our team is hopeful for the future and by providing this analysis, we hope to spark further conversation on this heavy topic and encourage those to seek help where needed.
 
