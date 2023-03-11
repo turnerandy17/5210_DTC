@@ -41,7 +41,7 @@ The story we want to get across and communicate is that suicide rates vary by co
 
 -------------------------------------------------------------------------
 
-#### How you set out to tell that story, and what interesting question it answers:
+#### How We Are Telling the Story and Questions Our Analysis Answers:
 
 To investigate our data and help tell our story, our team developed a dashboard in Tableau. Our team first set up a Github repository, conducted an initial exploratory data analysis in R Studio, and then began developing our Tableau dashboard. The dashboard we developed contains multiple elements:
 
@@ -66,18 +66,18 @@ There are several interesting questions our dashboard answers:
 
 #### Results and Our Story Explained:
 
-Our analysis reveals that the overwhelming majority of suicides are from males. We see in our first visual for all suicide globally between 1985-2016, nearly 5.2M males committed suicide. This is almost 4x higher than the suicide rate for females.
+Our analysis reveals that the overwhelming majority of suicides are from males. We see in our first visual for all suicide globally between 1985-2016, nearly 5.2M males committed suicide. This is almost 4x higher than the suicide rate for females. Although our team cannot speculate on why males commit suicides nearly 4x as much as females, these number clearly show a disproportionate number of males commit suicide relative to females.
 
 ![](images/counts.png)
 
+One of the next issues we wanted to examine was which age range is suicide most common? This chart shows the majority of suicides affect those in their 'middle-age', typically individuals between the ages of 35-54 years old. Unsurprisingly, we see a 'bell-curve' wherein individuals at young and old ages commit suicide less. This visualization is telling of an overriding and alarming result: individuals in the middle of their anticipated lifespans are committing suicide in disproportionate numbers relative to other age groups. There are an infinite number of factors that could play into this, but the result remains the same. 
 
-Generationally, Boomers and the Silent generation comprised the highest number of suicides in our data set. 
+![](images/age.png)
+
+
+Our team then turns to the issue of answering the question of which generation commits the highest number of suicides. Our treemap shows Boomers and the Silent generation comprised the highest number of suicides in our data set. We saw that individuals in the middle of their anticipated lifespan commit suicide in higher numbers than individuals in other age groups in the previous visualization, and as our data spans 1985-2016, we anticipated seeing Boomers and the Silent generation committing the most suicides as they would have been in their 'middle' ages during 1985-2016.
 ![](images/treemap.png)
 
-
-
-Lastly, the majority of suicides affect those in their 'middle-age', typically individuals between the ages of 35-54 years old.
-![](images/age.png)
 
 
 Finally, we see some interesting results for the relationship between GDP and suicide.
