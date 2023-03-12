@@ -1,5 +1,5 @@
 ---
-title: "DTC Final Memo - DRAFT"
+title: "5210 - DTC Final Memo"
 author: "Ian Basco, Christian Smith, Andy Turner"
 date: "`r Sys.Date()`"
 output:
@@ -12,8 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-#### Link to Tableau Dashboard
-https://public.tableau.com/app/profile/ian.ceazar.basco/viz/DataExplorationProject-Suicide/Dashboard1
+##### Link to Tableau Dashboard
+[Tableau Dashboard](https://public.tableau.com/app/profile/ian.ceazar.basco/viz/DataExplorationProject-Suicide/Dashboard1)
 
 
 ------------------------------------------------------------------------
@@ -29,7 +29,7 @@ We find males of the Boomer and Silent generation between the ages of 35-54 year
 
 #### Data Set Description:
 
-Our data was sourced from Kaggle, located here: https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016?page=2 
+Our data was sourced from Kaggle, located [here](https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016?page=2)
 
 This is a compiled dataset from the World Health Organization, World Bank, and United Nations members on suicide rates. It contains reported suicide numbers, Human Development Index (HDI), and the Gross Domestic (GDP) reported per country from 1985 to 2016. There are 101 countries represented in the data. The dataset also contains a field for generation (ex: Millennials, Generation X, Generation Z). The data is formatted as a CSV file.
 
@@ -107,7 +107,7 @@ We hope this story, dashboard, and analysis has provided a sobering and thought-
 
 #### Appendix
 
-Source: Wikipedia - https://en.wikipedia.org/wiki/Generation
+Source: Wikipedia - [located here](https://en.wikipedia.org/wiki/Generation)
 
 ![](images/generation.png)
 
