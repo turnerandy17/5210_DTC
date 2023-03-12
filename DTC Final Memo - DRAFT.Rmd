@@ -76,7 +76,7 @@ One of the next issues we wanted to examine was which age range is suicide most 
 ![](images/age.png)
 
 
-Our team then turns to the issue of answering the question of which generation commits the highest number of suicides. Our treemap shows Boomers and the Silent generation comprised the highest number of suicides in our data set. We saw that individuals in the middle of their anticipated lifespan commit suicide in higher numbers than individuals in other age groups in the previous visualization, and as our data spans 1985-2016, we anticipated seeing Boomers and the Silent generation committing the most suicides as they would have been in their 'middle' ages during 1985-2016.
+Our team then turns to the issue of answering the question of which generation commits the highest number of suicides. Our treemap shows Boomers and the Silent generation comprised the highest number of suicides in our data set. We saw that individuals in the middle of their anticipated lifespan commit suicide in higher numbers than individuals in other age groups in the previous visualization, and as our data spans 1985-2016, we anticipated seeing Boomers and the Silent generation committing the most suicides as they would have been in their 'middle' ages during 1985-2016. A breakdown of the generational groups is contained within the appendix.
 ![](images/treemap.png)
 
 All of our results examined thus far have been on a global level. To examine the intricacies of suicides by country, our team created a global heat map detailing suicides by country. Our heat map clearly shows the United States, Japan, and Russia having the highest number of suicides globally. From an informational perspective, we feel this global heat map allows users to investigate country level suicides and dig further into a specific country.
@@ -100,4 +100,14 @@ Although our data set is not fully representative of a lot of other information 
 * Continue monitoring global suicide rates relative to GDP.
 
 We hope this story, dashboard, and analysis has provided a sobering and thought-provoking insight into suicides on a global level. Our team is hopeful for the future and by providing this analysis, we hope to spark further conversation on this heavy topic and encourage those to seek help where needed.
+
+
+
+-------------------------------------------------------------------------
+
+#### Appendix
+
+Source: Wikipedia - https://en.wikipedia.org/wiki/Generation
+
+![](images/generation.png)
 
